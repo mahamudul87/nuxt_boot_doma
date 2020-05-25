@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:mysql://localhost:3306/vmotion?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    validation-query: SELECT 1
+    test-on-borrow: true
+    test-while-idle: true
+    min-evictable-idle-time-millis: 60000
+    time-between-eviction-runs-millis: 60000
+  doma:
+    dialect: mysql
+    sql-file-repository: no_cache
+

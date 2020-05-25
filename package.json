@@ -1,0 +1,35 @@
+{
+  "name": "nuxtjs-spring-boot",
+  "version": "1.0.0",
+  "description": "My remarkable Nuxt.js project",
+  "author": "yushi koga",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "acorn": "^6.0.4",
+    "cross-env": "^5.2.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "nuxt": "^2.8.1",
+    "vue-video-player": "^5.0.2",
+    "vuetify": "^2.1.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.5.95",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-vue": "^4.7.1",
+    "nodemon": "^1.11.0",
+    "prettier": "^1.14.3"
+  }
+}
