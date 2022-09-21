@@ -19,7 +19,7 @@
     "material-design-icons-iconfont": "^5.0.1",
     "nuxt": "^2.8.1",
     "vue-video-player": "^5.0.2",
-    "vuetify": "^2.1.5"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@mdi/font": "^4.5.95",
